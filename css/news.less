@@ -1,0 +1,207 @@
+@import "flex.less";
+
+body{
+  width:100vw;
+  height:auto;
+
+  overflow-x:hidden;
+  background-color:rgb(45,46,77);
+}
+
+
+.header{
+  width:80%;
+  height:80px;
+
+  margin:auto;
+
+  .flex;
+}
+
+.header > .logo-box{
+  flex:4;
+  height:100%;
+
+  .flex-align-center;
+}
+
+.header > .logo-box > .logo{
+  background-image: url("img/ic-symbol.svg");
+  background-size:cover;
+
+  width:52px;
+  height:50px;
+}
+
+
+.header > .logo-box > .logo-text{
+  background-image: url("img/ic-logo.svg");
+  background-size:cover;
+
+  width:89.4px;
+  height:44.4px;
+}
+
+
+
+.header > .menu{
+  flex:6;
+  height:100%;
+
+  .flex;
+}
+
+.header > .menu > div{
+  flex:1;
+  height:100%;
+
+  color:#82c1ea;
+
+  font-size:12px;
+  font-weight:200;
+
+  .flex-center;
+}
+
+.title{
+  width:80%;
+  height:80px;
+
+  padding-top:50px;
+
+  margin:auto;
+}
+
+.title > h4{
+  color:#fff;
+
+  font-size:28px;
+  font-weight:700;
+  font-family: 'Nanum Myeongjo', serif;
+  line-height:60px;
+}
+
+.news{
+  width:100%;
+  height:1000px;
+
+  background-color: #fff;
+
+  oveflow-y:auto;
+}
+
+.news > .news-list{
+  width:60%;
+  height:420px;
+
+  padding-top:30px;
+
+  margin:auto;
+
+  .flex;
+}
+
+.news > .news-list > .news-content{
+  width:30%;
+  height:100%;
+
+}
+
+.news > .news-list > .margin{
+  margin-left:20px;
+}
+
+
+.news > .news-list > .news-content > img{
+  width:100%;
+  height:200px;
+
+  border:1px solid #2d2e4f;
+}
+
+.news > .news-list > .news-content > .border{
+  width:100%;
+  height:2px;
+
+  border-bottom:3px solid black;
+}
+
+.news > .news-list > .news-content > h4{
+  color:#2d2e4f;
+
+  font-size:24px;
+  font-weight:700;
+  font-family: 'Nanum Myeongjo', serif;
+  line-height:60px;
+}
+
+.news > .news-list > .news-content > p{
+  color:#bfbfd7;
+
+  font-size:14px;
+  font-weight:200;
+  line-height:20px;
+}
+
+.news > .news-list > .news-content > .btn{
+  width:55%;
+  height:35px;
+
+  border:2px solid #2d2e4f;
+
+  color:#2d2e4f;
+  font-size:16px;
+  font-weight:400;
+
+  .flex-center;
+
+  margin-top:14px;
+}
+
+
+.company-data{
+  width:100%;
+  height:300px;
+
+  background-color:#46474d;
+
+  .flex-center;
+}
+
+.company-data > div{
+  width:300px;
+  height:100%;
+}
+
+.company-data > div > .image{
+  background-size: cover;
+  background-image: url("img/company-name.png");
+
+  height:38px;
+  width:218px;
+
+  margin:auto;
+  margin-top:20px;
+}
+
+.company-data > div > h4{
+  font-size:24px;
+  font-weight:400;
+  line-height:80px;
+
+
+
+  color:#fff;
+
+  text-align:center;
+}
+
+.company-data > div > p{
+  font-size:14px;
+  font-weight:200;
+  line-height:40px;
+
+  color:rgb(146,146,146);
+
+  text-align:center;
+}

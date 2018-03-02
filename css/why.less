@@ -1,0 +1,335 @@
+@import "flex.less";
+
+body{
+  width:100vw;
+  height:auto;
+
+  overflow-x:hidden;
+  background-color:rgb(45,46,77);
+}
+
+
+.header{
+  width:80%;
+  height:80px;
+
+  margin:auto;
+
+  .flex;
+}
+
+.header > .logo-box{
+  flex:4;
+  height:100%;
+
+  .flex-align-center;
+}
+
+.header > .logo-box > .logo{
+  background-image: url("img/ic-symbol.svg");
+  background-size:cover;
+
+  width:52px;
+  height:50px;
+}
+
+
+.header > .logo-box > .logo-text{
+  background-image: url("img/ic-logo.svg");
+  background-size:cover;
+
+  width:89.4px;
+  height:44.4px;
+}
+
+
+
+.header > .menu{
+  flex:6;
+  height:100%;
+
+  .flex;
+}
+
+.header > .menu > div{
+  flex:1;
+  height:100%;
+
+  color:#82c1ea;
+
+  font-size:12px;
+  font-weight:200;
+
+  .flex-center;
+}
+
+.why-why{
+  width:100%;
+  height:210px;
+
+  padding-top:40px;
+}
+
+.why-why > h4{
+  color:#fff;
+
+  text-align:center;
+
+  font-size:50px;
+  font-weight:700;
+  font-family: 'Nanum Myeongjo', serif;
+  line-height:60px;
+}
+
+.why-why > .border{
+  width:40px;
+  height:2px;
+  margin:auto;
+
+  border-bottom:2px solid #fff;
+}
+
+.why-why > p{
+  color:#fff;
+
+  text-align:center;
+
+  font-size:18px;
+  font-weight:700;
+  font-family: 'Nanum Myeongjo', serif;
+  line-height:60px;
+}
+
+.water-explain{
+  width:100%;
+  height:600px;
+
+  background-color:#fff;
+
+  .flex-center;
+
+}
+
+.water-explain > .text-box{
+  width:calc(~"70% - 210px");
+}
+
+.water-explain > .text-box > .text{
+  .flex;
+
+  margin-top:30px;
+}
+
+.water-explain > .text-box > .text > h4{
+  color:#2d2e4f;
+
+  font-size:20px;
+  font-weight:700;
+  font-family: 'Nanum Myeongjo', serif;
+
+  line-height:40px;
+  flex:1;
+}
+
+.water-explain > .text-box > .text > p{
+  color:#2d2e4f;
+
+  font-size:14px;
+  font-weight:200;
+  line-height:30px;
+
+  margin-left:30px;
+  flex:3;
+}
+
+.water-explain > .image{
+  background-image: url("img/aqua.png");
+  background-size:cover;
+
+  width:210px;
+  height:389.5px;
+}
+
+.water-main-effect{
+  width:100%;
+  height:400px;
+
+  .flex;
+}
+
+.water-main-effect > .image {
+  flex: 4.5;
+  height: 100%;
+
+  // 사진 ㄲㄲ
+}
+
+.water-main-effect > .text-box{
+  flex:5.5;
+  height:calc(~"100% - 60px");
+
+  padding-top:60px;
+  padding-left:20px;
+}
+
+.water-main-effect > .text-box > h4{
+  font-family: 'Nanum Myeongjo', serif;
+
+  font-size:30px;
+  font-weight:700;
+
+  line-height:100px;
+
+  color:#fff;
+}
+
+.water-main-effect > .text-box > p{
+  font-size:14px;
+  font-weight:200;
+  line-height:20px;
+
+  color:#bfbfd7;
+}
+
+.water-effect{
+  width:100%;
+  height:540px;
+
+  padding-top:60px;
+
+  background-color:#f2f9fb;
+}
+
+.water-effect > h4{
+  text-align:center;
+
+  font-family: 'Nanum Myeongjo', serif;
+
+  font-size:30px;
+  font-weight:700;
+
+  line-height:60px;
+
+  margin-bottom:30px;
+}
+
+.water-effect > .text-list{
+  width:80%;
+  height:40%;
+  margin:auto;
+
+  .flex-align-around;
+}
+
+.water-effect > .text-list > .text-box{
+  width:25%;
+  height:100%;
+}
+
+.water-effect > .text-list > .text-box > h4{
+  font-family: 'Nanum Myeongjo', serif;
+
+  font-size:20px;
+  font-weight:700;
+
+  line-height:30px;
+}
+
+.water-effect > .text-list > .text-box > .border{
+  width:30px;
+  height:1px;
+
+  border-bottom:2.5px solid black;
+
+  margin-bottom:5px;
+}
+
+.water-effect > .text-list > .text-box > p{
+  font-size:12px;
+  font-weight:200;
+
+  line-height:20px;
+}
+
+.company-buy{
+  width:100%;
+  height:300px;
+
+  padding-top:100px;
+
+  background-color:#fff;
+}
+
+.company-buy > h4{
+  text-align:center;
+
+  font-size:40px;
+  font-weight:700;
+  line-height:100px;
+
+  color:#2d2e4f;
+
+  font-family: 'Nanum Myeongjo', serif;
+}
+
+.company-buy > .buy{
+  width:260px;
+  height:60px;
+
+  .flex-center;
+
+  font-size:20px;
+  font-weight:400;
+  color:#2d2e4f;
+
+  margin:auto;
+
+  border:2.5px solid #2d2e4f;
+}
+
+.company-data{
+  width:100%;
+  height:300px;
+
+  background-color:#46474d;
+
+  .flex-center;
+}
+
+.company-data > div{
+  width:300px;
+  height:100%;
+}
+
+.company-data > div > .image{
+  background-size: cover;
+  background-image: url("img/company-name.png");
+
+  height:38px;
+  width:218px;
+
+  margin:auto;
+  margin-top:20px;
+}
+
+.company-data > div > h4{
+  font-size:24px;
+  font-weight:400;
+  line-height:80px;
+
+
+
+  color:#fff;
+
+  text-align:center;
+}
+
+.company-data > div > p{
+  font-size:14px;
+  font-weight:200;
+  line-height:40px;
+
+  color:rgb(146,146,146);
+
+  text-align:center;
+}

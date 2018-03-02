@@ -1,0 +1,354 @@
+@import "flex.less";
+
+*{
+  margin:0;
+}
+
+body{
+  width:100vw!important;
+  height:auto!important;
+
+  overflow-x:hidden!important;
+}
+
+.header{
+  width:80%;
+  height:80px;
+
+  margin:auto;
+
+  .flex;
+}
+
+.header > .logo-box{
+  flex:4;
+  height:100%;
+
+  .flex-align-center;
+}
+
+.header > .logo-box > .logo{
+  background-image: url("img/ic-symbol.png");
+  background-size:cover;
+
+  width:52px;
+  height:50px;
+}
+
+
+.header > .logo-box > .logo-text{
+  background-image: url("img/icon.png");
+  background-size:cover;
+
+  width:89.4px;
+  height:44.4px;
+}
+
+
+
+.header > .menu{
+  flex:6;
+  height:100%;
+
+  .flex;
+}
+
+.header > .menu > div{
+  flex:1;
+  height:100%;
+
+  color:#82c1ea;
+
+  font-size:12px;
+  font-weight:200;
+
+  .flex-center;
+}
+
+.header > .menu > div > .pick{
+  border-bottom:#82c1ea;
+}
+
+.company-main{
+  width:100%;
+  height:800px;
+
+  .flex-center;
+}
+//
+//.company-main > .company-main-text{
+//  width:40%;
+//  height:60%;
+//
+//}
+
+.company-main > .company-main-text > h4{
+  font-size:34px;
+  font-weight:700;
+
+  line-height:40px;
+
+  font-family: 'Nanum Myeongjo', serif;
+}
+
+.company-main > .company-main-text > .border{
+  width:50px;
+  height:2px;
+
+  border-bottom:2px solid black;
+
+  margin-bottom:30px;
+}
+
+.company-main > .company-main-text > p{
+  font-size:18px;
+  font-weight:100;
+  color:#bfbfd7;
+}
+
+.company-main > .company-main-text > .image{
+  background-image: url("img/cluster.png");
+  background-size:cover;
+
+  width:221px;
+  height:57px;
+
+  margin-top:30px;
+}
+
+.company-main > .company-water-image > .image{
+  background-image: url("img/water.png");
+  background-size: cover;
+
+  width:543px;
+  height:513.75px;
+
+  margin-right:-100px;
+  margin-left:50px;
+}
+
+.company-explain{
+  width:100%;
+  height:400px;
+
+  .flex-center;
+  
+  background-size:cover;
+  background-image:url("img/background.png");
+}
+
+.company-explain > .company-explain-box{
+  width:60%;
+
+  color:#bfbfd7;
+}
+
+.company-explain > .company-explain-box > h4{
+  font-size:30px;
+  font-weight:400;
+  line-height:80px;
+
+  color:#fff;
+
+  font-family: 'Nanum Myeongjo', serif;
+}
+
+.company-explain > .company-explain-box > p{
+  font-size:14px;
+  font-weight:200;
+  line-height:20px;
+}
+
+.company-explain > .company-explain-box > p > b{
+  color:#fff;
+  font-weight:400;
+}
+
+.company-past{
+  width:100%;
+  height:340px;
+
+  padding-top:60px;
+}
+
+.company-past > .border-top{
+  width:60%;
+  height:42px;
+
+  .flex-align-between;
+
+  margin:auto;
+  margin-bottom:10px;
+}
+
+.company-past > .border-top > .border{
+  width:calc(~"50% - 42px");
+  height:1px;
+
+  border-bottom:1px solid #82c1ea;
+}
+
+.company-past > .border-top > .image{
+  background-size:cover;
+  background-image:url('img/".png');
+
+  width:53px;
+  height:42px;
+}
+
+.company-past > h4{
+  color:#2d2e4f;
+  font-size:18px;
+  font-weight:700;
+  line-height:40px;
+
+  text-align:center;
+
+  font-family: 'Nanum Myeongjo', serif;
+}
+
+.company-past > p{
+  color:rgb(142,142,142);
+  font-size:18px;
+  font-weight:400;
+  line-height:40px;
+
+  text-align:center;
+}
+
+.company-past > .border-bottom{
+  width:60%;
+  height:42px;
+
+  margin:auto;
+}
+
+.company-past > .border-bottom > .border{
+  width:100%;
+  height:1px;
+
+  border-bottom:1px solid #82c1ea;
+
+  margin-top:20px;
+}
+
+.company-water-explain{
+  width:100%;
+  height:800px;
+
+  .flex-center;
+
+  background-color: rgb(239,245,247);
+}
+
+.company-water-explain > .company-water-image > .image{
+  background-image: url("img/water.png");
+  background-size: cover;
+
+  width:543px;
+  height:513.75px;
+}
+
+.company-water-explain > .company-water-explain-text > h4{
+  color:#2d2e4f;
+
+  font-size:36px;
+  font-weight:700;
+  line-height:80px;
+
+  font-family: 'Nanum Myeongjo', serif;
+}
+
+.company-water-explain > .company-water-explain-text > p{
+  color:rgba(45, 46 ,79, 0.6);
+  font-size:20px;
+  font-weight:200;
+
+  line-height:26px;
+}
+
+.company-water-explain > .company-water-explain-text > p > b{
+  color:rgba(45 , 46 , 79, 0.9);
+
+}
+
+.company-buy{
+  width:100%;
+  height:300px;
+
+  padding-top:100px;
+}
+
+.company-buy > h4{
+  text-align:center;
+
+  font-size:40px;
+  font-weight:700;
+  line-height:100px;
+
+  color:#2d2e4f;
+
+  font-family: 'Nanum Myeongjo', serif;
+}
+
+.company-buy > .buy{
+  width:260px;
+  height:60px;
+
+  .flex-center;
+
+  font-size:20px;
+  font-weight:400;
+  color:#2d2e4f;
+
+  margin:auto;
+
+  border:2.5px solid #2d2e4f;
+}
+
+.company-data{
+  width:100%;
+  height:300px;
+
+  background-color:#46474d;
+
+  .flex-center;
+}
+
+.company-data > div{
+  width:300px;
+  height:100%;
+}
+
+.company-data > div > .image{
+  background-size: cover;
+  background-image: url("img/company-name.png");
+
+  height:38px;
+  width:218px;
+
+  margin:auto;
+  margin-top:20px;
+}
+
+.company-data > div > h4{
+  font-size:24px;
+  font-weight:400;
+  line-height:80px;
+
+
+
+  color:#fff;
+
+  text-align:center;
+}
+
+.company-data > div > p{
+  font-size:14px;
+  font-weight:200;
+  line-height:40px;
+
+  color:rgb(146,146,146);
+
+  text-align:center;
+}
