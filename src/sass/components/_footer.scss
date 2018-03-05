@@ -1,0 +1,24 @@
+footer.footer {
+  background-color: #46474d;
+  padding: 5.25rem 0 8.875rem;
+  color: #fff;
+  .img#clavis {
+    width: 13.625rem;
+    height: 2.265rem;
+  }
+  p.footer-title {
+    margin-bottom: 1.125rem;
+  }
+  .footer-item {
+    opacity: .6;
+    text-decoration: none;
+    margin-bottom: 1.125rem;
+    display: block;
+    line-height: 150%;
+    color: #fff;
+    transition: opacity .5s cubic-bezier(0.19, 1, 0.22, 1);
+    &:hover:not(p) {
+      opacity: 1;
+    }
+  }
+}

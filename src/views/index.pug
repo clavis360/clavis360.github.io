@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-html(lang="en")
+html(lang="ko")
     head
         meta(charset="UTF-8")
         meta(name="viewport", content="width=device-width, initial-scale=1.0")
@@ -8,12 +8,17 @@ html(lang="en")
 
         //- Import Styles
         link(rel="stylesheet", href="./css/style.css")
+
+        link(href='https://fonts.googleapis.com/css?family=Nanum+Myeongjo:400,700', rel='stylesheet')
+        link(href='https://fonts.googleapis.com/earlyaccess/notosanskr.css', rel='stylesheet')
+
         //- Import Webfonts
-        script(type='text/javascript').
+        //-script(type='text/javascript').
             WebFontConfig = {
-            google:{
-            families: ['Montserrat:700'],                
-            },
+                custom: {
+                    families: ['Nanum Myeongjo'],
+                    urls: ['']
+                },
             active: function () {
             sessionStorage.fonts = true;
             }
@@ -28,7 +33,101 @@ html(lang="en")
             s.parentNode.insertBefore(wf, s);
             })();
 
-        title Gulp Boilerplate
+        title King's AQUA
     body
-        img(src="/assets/logo.png" style="width:48px;height:48px;")
-        h1(style="font-family:'Montserrat',sans-serif") Hello World!
+        section#main
+            nav.navbar.flex.v-center
+                .container: .row
+                    .col-md-4: .flex.v-center.img-row
+                        .img#symbol
+                        .divider
+                        .img#logo
+                    .col-md-8.flex.v-center: ul.menus
+                        li: a.active(href="/") BRAND STORY
+                        li: a(href="/info") INFORMATION      
+                        li: a(href="/") ONLINE SHOP
+                        li: a(href="/") NEWS & EVENT        
+            .container#main-contents-section: .row.flex.v-center
+                .col-md-5
+                    p.main-title 왕의 선택, 킹스 아쿠아
+                    p.main-desc
+                        | 마시는 순간 물과 산소를 동시에 공급,
+                        br.
+                        | 혈액순환과 신진대사를 활발히 돕는 “클러스터 산소수”
+                    .img#recipe
+                .col-md-7
+                    .img#header-aqua     
+            .icon#down-arrow
+        section#cluster.img: .container: .row
+            .col-md-4
+                p.cluster-title 클러스터 산소수란?
+                p.cluster-desc
+                    | 예부터  
+                    span 물 맑은 지역 
+                    | 으로 유명한 충청북도 동국여지승람과 조선왕조실록에는 1444년  세종대왕이 눈병때문에 
+                    span 이 고장 물을 애용 
+                    | 하시며 123일간 
+                    span 머물렀다는 
+                    | 기록이 있습니다. 
+                    br
+                    br.                    
+                    span 킹스 아쿠아는 
+                    | 왕에게 인정받은 물 맑은 충북의 
+                    span 천연 옥(玉) 암반 약알칼리수 
+                    | 에 150ppm의 
+                    span 고농도 미세산소 
+                    | 를 넣고, 미세 물(H2O)분자 클러스터로 세포마다 신선한 물과 산소를 빠르게 공급해주는 
+                    span ‘나노 클러스터 산소수’ 
+                    | 입니다.
+        section#quote: .container: .row.flex.v-center.columnize
+            .divider
+            p.quote-title
+                | 옥이 묻힌 계곡에서 흘러 나오는 옥정수는 성질이 평하고 맛이 달며 독이 없다.
+                br.
+                | 오랫동안 먹으면 몸이 윤택해지고 머리털이 희어지지 않는다. 이것은 산골짜기의 옥이 있는 곳에서
+                br.
+                | 나오는 물을 말한다. 산에 옷이 있으면 풀과 나무에도 윤기가 돈다.
+            p.quote-desc ‘동의보감’ 중에서
+            .divider        
+        section#origin: .container: .row
+            .col-md-7
+                .img#section-4-aqua
+            .col-md-5
+                p.origin-title 수원지 소개
+                p.origin-desc
+                    | 세종대왕이 행차하셨던 
+                    span 물 맑은 충북 
+                    | 지역에서도 깊은 청정 숲 속 
+                    span 지하 153m, 옥층 암반 
+                    | 사이로 흐르는 수맥이 바로 
+                    span 킹스 아쿠아 
+                    | 의 근원입니다. 
+                    br
+                    br.
+                    | 수질의 ph가 상시 7.5 이상인 천연 옥암반 약알카리수는 클러스터(물분자 집단)가 작아 
+                    span 체내흡수 속도 
+                    | 가  빠르고 여기에 여기에 나노화시킨 고농도 산소수 (수질1급수 기준 약 20배)를 결합하여 탄생한 
+                    span 최상의 물
+                    | ,  그것이 바로 
+                    span 킹스아쿠아 입니다. 
+        section#cta: .container: .row: .col-md-12.flex.columnize.center.v-center
+            p.cta-title 지금 “킹스 아쿠아”를 주문하세요!
+            button.cta-button BUY NOW
+        footer.footer: .container: .row
+            .col-md-3
+                .img#clavis
+            .col-md-3.offset-md-2
+                p.footer-title CONTACT INFO
+                p.footer-item TEL | 02 - 572 - 0058
+                p.footer-item FAX | 02 - 572 - 0059
+                a.footer-item(href="mailto:kingsaqua@clavis360.com") kingsaqua@clavis360.com  
+                p.footer-item 서울특별시 강남구 논현동
+                    br.
+                    | 언주로 415 (유일빌딩 3층)                                         
+            .col-md-3.offset-md-1
+                p.footer-title SITE MAP
+                a.footer-item(href="#") Brand Story
+                a.footer-item(href="#") Information 
+                a.footer-item(href="#") Online Shop
+                a.footer-item(href="#") News & Events
+                     

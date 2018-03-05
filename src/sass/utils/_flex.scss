@@ -1,0 +1,15 @@
+.flex {
+  display: flex;
+  &.v-center {
+    align-items: center;
+  }
+  &.justify {
+    justify-content: space-between;
+  }
+  &.center {
+    justify-content: center;
+  }
+  &.columnize{
+      flex-direction: column;
+  }
+}
