@@ -1,0 +1,23 @@
+{
+  "name": "clavis-kingsaqua",
+  "version": "1.0.0",
+  "description": "landing page for Clavis",
+  "main": "index.js",
+  "scripts": {
+    "start": "gulp serve",
+    "build": "gulp build"
+  },
+  "author": "Beomjun Gil <gil@beomjun.kr>",
+  "license": "MIT",
+  "devDependencies": {
+    "browser-sync": "^2.23.6",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^4.1.0",
+    "gulp-imagemin": "^4.1.0",
+    "gulp-pug": "^3.3.0",
+    "gulp-pug-beautify": "0.0.1",
+    "gulp-sass": "^3.1.0",
+    "gulp-sass-glob": "^1.0.8",
+    "gulp-util": "^3.0.8"
+  }
+}
