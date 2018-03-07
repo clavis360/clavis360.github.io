@@ -12,7 +12,7 @@ section#main {
     p.main-title {
       font-family: 'Nanum Myeongjo', serif;
       font-weight: bolder;
-      font-weight: 800;
+      font-weight: 900;
       font-size: 2.25em;
       position: relative;
       color: $primary;
@@ -66,6 +66,8 @@ section#cluster {
   }
   p.cluster-title {
     font-family: 'Nanum Myeongjo', serif;
+    font-weight: bolder;
+    font-weight: 900;
     color: #fff;
     font-size: 2rem;
     margin-bottom: 2rem;
@@ -105,7 +107,7 @@ section#quote {
   p.quote-title {
     font-family: 'Nanum Myeongjo', serif;
     font-weight: bolder;
-    font-weight: 800;
+    font-weight: 900;
     color: $primary;
     font-size: 1.5rem;
     text-align: center;
@@ -133,7 +135,7 @@ section#origin {
   p.origin-title {
     font-family: 'Nanum Myeongjo', serif;
     font-weight: bolder;
-    font-weight: 800;
+    font-weight: 900;
     font-size: 2em;
     color: $primary;
     margin-bottom: 2rem;
@@ -154,7 +156,7 @@ section#cta {
   p.cta-title {
     font-family: 'Nanum Myeongjo', serif;
     font-weight: bolder;
-    font-weight: 800;
+    font-weight: 900;
     font-size: 3em;
     margin-bottom: 3.375rem;
   }

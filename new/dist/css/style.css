@@ -180,7 +180,7 @@ section#main {
     section#main #main-contents-section p.main-title {
       font-family: 'Nanum Myeongjo', serif;
       font-weight: bolder;
-      font-weight: 800;
+      font-weight: 900;
       font-size: 2.25em;
       position: relative;
       color: #2d2e4f;
@@ -236,28 +236,30 @@ section#cluster {
   /* line 67, src/sass/pages/_home.scss */
   section#cluster p.cluster-title {
     font-family: 'Nanum Myeongjo', serif;
+    font-weight: bolder;
+    font-weight: 900;
     color: #fff;
     font-size: 2rem;
     margin-bottom: 2rem; }
-  /* line 73, src/sass/pages/_home.scss */
+  /* line 75, src/sass/pages/_home.scss */
   section#cluster p.cluster-desc {
     color: #bfbfd7;
     line-height: 180%; }
-    /* line 76, src/sass/pages/_home.scss */
+    /* line 78, src/sass/pages/_home.scss */
     section#cluster p.cluster-desc span {
       color: #f2f9fb; }
 
-/* line 82, src/sass/pages/_home.scss */
+/* line 84, src/sass/pages/_home.scss */
 section#quote {
   padding: 6rem 0; }
-  /* line 84, src/sass/pages/_home.scss */
+  /* line 86, src/sass/pages/_home.scss */
   section#quote div.divider {
     background: #82c1ea;
     height: 1px;
     max-width: 32rem;
     width: 90%;
     position: relative; }
-    /* line 90, src/sass/pages/_home.scss */
+    /* line 92, src/sass/pages/_home.scss */
     section#quote div.divider:first-child:before {
       content: "";
       display: block;
@@ -272,63 +274,63 @@ section#quote {
       border-right: .5rem solid #fff;
       -webkit-transform: translateY(-50%) translateX(-50%);
               transform: translateY(-50%) translateX(-50%); }
-  /* line 105, src/sass/pages/_home.scss */
+  /* line 107, src/sass/pages/_home.scss */
   section#quote p.quote-title {
     font-family: 'Nanum Myeongjo', serif;
     font-weight: bolder;
-    font-weight: 800;
+    font-weight: 900;
     color: #2d2e4f;
     font-size: 1.5rem;
     text-align: center;
     padding: 3rem 0 1rem;
     line-height: 180%; }
-  /* line 115, src/sass/pages/_home.scss */
+  /* line 117, src/sass/pages/_home.scss */
   section#quote p.quote-desc {
     color: #2d2e4f;
     opacity: .25;
     font-size: 1.25em;
     margin-bottom: 3rem; }
 
-/* line 123, src/sass/pages/_home.scss */
+/* line 125, src/sass/pages/_home.scss */
 section#origin {
   padding: 7.75rem 0 14.75rem;
   background: #eef5f7;
   position: relative; }
-  /* line 127, src/sass/pages/_home.scss */
+  /* line 129, src/sass/pages/_home.scss */
   section#origin .img#section-4-aqua {
     position: absolute;
     left: -3%;
     width: 33.75rem;
     height: 38rem; }
-  /* line 133, src/sass/pages/_home.scss */
+  /* line 135, src/sass/pages/_home.scss */
   section#origin p.origin-title {
     font-family: 'Nanum Myeongjo', serif;
     font-weight: bolder;
-    font-weight: 800;
+    font-weight: 900;
     font-size: 2em;
     color: #2d2e4f;
     margin-bottom: 2rem; }
-  /* line 141, src/sass/pages/_home.scss */
+  /* line 143, src/sass/pages/_home.scss */
   section#origin p.origin-desc {
     color: rgba(45, 46, 79, 0.6);
     line-height: 170%; }
-    /* line 144, src/sass/pages/_home.scss */
+    /* line 146, src/sass/pages/_home.scss */
     section#origin p.origin-desc span {
       color: rgba(45, 46, 79, 0.9);
       font-weight: bold;
       font-weight: 700; }
 
-/* line 152, src/sass/pages/_home.scss */
+/* line 154, src/sass/pages/_home.scss */
 section#cta {
   padding: 18rem 0 10rem; }
-  /* line 154, src/sass/pages/_home.scss */
+  /* line 156, src/sass/pages/_home.scss */
   section#cta p.cta-title {
     font-family: 'Nanum Myeongjo', serif;
     font-weight: bolder;
-    font-weight: 800;
+    font-weight: 900;
     font-size: 3em;
     margin-bottom: 3.375rem; }
-  /* line 161, src/sass/pages/_home.scss */
+  /* line 163, src/sass/pages/_home.scss */
   section#cta button.cta-button {
     appearance: none;
     -webkit-appearance: none;
@@ -345,7 +347,7 @@ section#cta {
     cursor: pointer;
     -webkit-transition: all 1s cubic-bezier(0.19, 1, 0.22, 1);
     transition: all 1s cubic-bezier(0.19, 1, 0.22, 1); }
-    /* line 176, src/sass/pages/_home.scss */
+    /* line 178, src/sass/pages/_home.scss */
     section#cta button.cta-button:hover {
       -webkit-transform: scale(1.1);
               transform: scale(1.1);
@@ -353,7 +355,7 @@ section#cta {
               box-shadow: 0 0.25rem 2rem rgba(45, 46, 79, 0.6);
       background: #2d2e4f;
       color: #fff; }
-    /* line 182, src/sass/pages/_home.scss */
+    /* line 184, src/sass/pages/_home.scss */
     section#cta button.cta-button:before {
       content: "";
       display: block;
